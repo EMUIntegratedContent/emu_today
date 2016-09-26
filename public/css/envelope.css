@@ -1,0 +1,70 @@
+
+#emu-id {
+	width: 100%;
+	background-image: url(../img/gradient.png);
+	background-repeat: repeat-x;  
+	position: relative;
+	padding-top: .8rem;
+	padding-bottom: 0;
+}
+#emu-id form{
+	padding: 0;
+	margin: 0;
+	border: none;
+	}
+#emu-id .dropdown.button:after, #emu-id button.dropdown:after {
+    border-color: #a1d7ca transparent transparent;
+}
+.logoleftpadding {
+	padding-left: .2rem;
+}
+#emu-id .small-5 {
+	padding-right: 0;
+}
+#emu-id .f-dropdown li a {
+    color: #555;
+    display: block;
+    padding: 0.3rem 1rem;
+}
+#emu-id  button, #emu-id  .button {
+    background-color: #00a366;
+    color: #a1d7ca;
+    font-family: Open Sans,sans-serif;
+    padding: 0.7rem 6.8rem 0.6rem 1rem;
+    width: 100%;
+    text-align: left;
+}
+#emu-id input{
+	border: none;
+	background-color: #61ae9b;
+	color:#fff;
+	padding-left: 1rem;
+	font-size: 1rem;
+}
+
+#emu-id .addtoppadding {
+	padding-top: .4rem;
+}
+.top-bar.expanded .title-area, .contain-to-grid, .top-bar, .top-bar-section ul, .top-bar-section ul li, .top-bar-section li:not(.has-form) a:not(.button), .top-bar-section .dropdown li a, .top-bar-section .dropdown li:not(.has-form) a:not(.button), .top-bar-section li:not(.has-form) a:not(.button):hover {
+/*background:transparent */;
+}
+.top-bar {
+   
+    margin-bottom: 0;
+}
+.top-bar.expanded {
+    height: auto;
+    background: #666;
+    margin-top: .8rem; 
+}
+.top-bar.expanded .title-area {
+      background: #fff; }
+
+.top-bar.expanded .toggle-topbar a {
+      color: #888888; }
+
+.top-bar.expanded .toggle-topbar a span::after {
+      box-shadow: 0 0 0 1px #888888, 0 7px 0 1px #888888, 0 14px 0 1px #888888; }
+
+
+
