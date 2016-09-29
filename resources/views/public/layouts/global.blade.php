@@ -12,10 +12,11 @@
   @include('public.layouts.connection-bar')
   @yield('content')
   @include('public.layouts.base-bar')
-  <script src="/js/vendor/jquery.js"></script>
-  <script src="/js/foundation.min.js"></script>
-  <script>
-  $(document).foundation();
-  </script>
+  
+  <!-- javascripts below -->
+  <script type="text/javascript" src="/js/vendor/jquery.js"></script>
+  <script type="text/javascript" src="/js/foundation.min.js"></script>
+  <script type="text/javascript"> $(document).foundation(); </script>
+  @yield('scripts')
 </body>
 </html>

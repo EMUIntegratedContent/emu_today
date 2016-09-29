@@ -107,3 +107,10 @@
   </div>
 </div>
 @stop
+
+@section('scripts')
+<script type="text/javascript" src="https://cdn.jsdelivr.net/vue/1.0.27/vue.min.js"></script>
+<script type="text/javascript">
+
+</script>
+@stop
