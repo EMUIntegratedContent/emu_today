@@ -16,9 +16,9 @@
           </div>
           <div class="large-3 large-pull-9 medium-2 medium-pull-10 small-2 small-pull-10 columns" >
             <div id="logo-box" data-equalizer-watch>
-              <a href="http://www.emich.edu"><img class="full-logo" alt="Eastern Michigan University" src="images/logo.png"></a>
-              <a href="http://www.emich.edu"><img class="block-e" alt="Eastern Michigan University" src="images/blockEwhiteplain.png"></a>
-              <a href="http://www.emich.edu"><img class="emu" alt="Eastern Michigan University" src="images/emu.png"></a>
+              <a href="http://www.emich.edu"><img class="full-logo" alt="Eastern Michigan University" src="/images/logo.png"></a>
+              <a href="http://www.emich.edu"><img class="block-e" alt="Eastern Michigan University" src="/images/blockEwhiteplain.png"></a>
+              <a href="http://www.emich.edu"><img class="emu" alt="Eastern Michigan University" src="/images/emu.png"></a>
             </div>
           </div>
         </div>
@@ -31,9 +31,9 @@
             <div class="large-12 medium-12 small-12 columns">
               <ul>
                 <li><a class="right-arrow" href="/">Today</a></li>
-                <li><a href="calendar">Calendar</a></li>
-                <li><a href="announcements">Announcements</a></li>
-                <li><a href="news">News</a></li>
+                <li><a href="/calendar">Calendar</a></li>
+                <li><a href="/announcement">Announcements</a></li>
+                <li><a href="/news">News</a></li>
                 <li><a href="wemu.org">wemu</a></li>
                 <li><a href="http://www.emueagles.com/index.aspx">Athletics</a></li>
               </ul>
@@ -53,13 +53,12 @@
                 <li><a href="">For the Media</a></li>
                 <li><a href="">Eastern Magazine</a></li>
                 <li><a href="">Submit an Event</a></li>
-                <li><a href="">Submit an Announcement</a></li>
+                <li><a href="/announcement/form">Submit an Announcement</a></li>
               </ul>
             </div>
           </div>
         </div>
-        <div class="large-2 large-pull-10 medium-2 medium-pull-10 hide-for-small columns">&nbsp;
-        </div>
+        <div class="large-2 large-pull-10 medium-2 medium-pull-10 hide-for-small columns">&nbsp;</div>
       </div>
     </div>
   </div>

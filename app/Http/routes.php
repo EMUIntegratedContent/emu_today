@@ -10,7 +10,9 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
+Route::get('announcement', 'AnnouncementController@index'); // Display public Announcements page
+Route::get('announcement/form', 'AnnouncementController@edit'); // Display public Announcements form
+Route::post('announcement/form', 'AnnouncementController@store'); // Validate and store Announcements submissions
 
 /*
 |--------------------------------------------------------------------------
@@ -25,9 +27,6 @@ Route::get('/', function () {
 });
 Route::get('calendar', function () {
     return view('public.hub.calendar');
-});
-Route::get('announcements', function () {
-    return view('public.hub.announcements');
 });
 Route::get('news', function () {
     return view('public.hub.news');
