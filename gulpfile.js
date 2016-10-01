@@ -16,5 +16,4 @@ require('laravel-elixir-vueify');
 
 elixir(function(mix) {
     mix.sass('app.scss');
-    mix.copy('node_modules/flatpickr/dist/flatpickr.min.css','public/css/flatpickr.min.css')
 });
