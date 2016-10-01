@@ -14,12 +14,6 @@
             @unless(empty($announcements))
             <ul class="accordion" data-accordion role="tablist">
               @foreach($announcements as $announcement)
-
-              <pre>
-                {{ print_r($announcement) }}
-                <br/>
-              </pre>
-              <!-- {{--
               <li class="accordion-navigation">
                 <a href="#panel{{ $announcement->id }}d" role="tab" id="panel1d-heading" aria-controls="panel{{ $announcement->id }}d">{{ $announcement->title }}</a>
                 <div id="panel{{ $announcement->id }}d" class="content" role="tabpanel" aria-labelledby="panel{{ $announcement->id }}d-heading">
@@ -32,7 +26,6 @@
                   @endif
                 </div>
               </li>
-              --}} -->
               @endforeach
             </ul>
             @else <!-- No announcements? Display this: -->

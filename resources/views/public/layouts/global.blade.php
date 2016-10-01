@@ -7,12 +7,13 @@
   <link rel="stylesheet" href="/css/foundation.css" />
   <link rel="stylesheet" href="/css/app.css" />
   <script src="/js/vendor/modernizr.js"></script>
+  @yield('meta')
 </head>
 <body>
   @include('public.layouts.connection-bar')
   @yield('content')
   @include('public.layouts.base-bar')
-  
+
   <!-- javascripts below -->
   <script type="text/javascript" src="/js/vendor/jquery.js"></script>
   <script type="text/javascript" src="/js/foundation.min.js"></script>

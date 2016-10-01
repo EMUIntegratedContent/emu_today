@@ -23,7 +23,8 @@ class AnnouncementController extends Controller
 
   public function store(Announcements $announcement, Request $request)
   { // Method to validate and store announcements submission
-    $this->validate($request, [
+    $this->validate($request, [ // validate takes rules to test against, see laravel documentation for rules
+      // errors array is global. if validation fails, errors array will be populated
       'title' => 'required|min:10',
       'announcement' => 'required|min:20',
       'link_txt' => 'required',
@@ -33,7 +34,8 @@ class AnnouncementController extends Controller
       'start_date' => 'required|date',
       'end_date' => 'required|date',
     ]);
-    $announcement->create([
+
+    $write = $announcement->create([ // Is there a less verbose method to drop values in db table?
       // 'is_approved' => '0',
       // 'is_promoted' => '0',
       'title' => $request->title,
@@ -45,6 +47,13 @@ class AnnouncementController extends Controller
       'start_date' => $request->start_date,
       'end_date' => $request->end_date,
     ]);
-    return back();
+
+    if($write){
+      // Did the database write happen successfully? Return success
+      $success = true; return view('public.hub.announcement.form', compact('success'));
+    } else {
+      // Laravel will display a SQL EXCEPTION error page. So this will naver return.
+      return 'Write to database failed.';
+    }
   }
 }

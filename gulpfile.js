@@ -1,5 +1,8 @@
 var elixir = require('laravel-elixir');
 
+// npm package needed for vue to browserify
+require('laravel-elixir-vueify');
+
 /*
  |--------------------------------------------------------------------------
  | Elixir Asset Management
@@ -13,4 +16,5 @@ var elixir = require('laravel-elixir');
 
 elixir(function(mix) {
     mix.sass('app.scss');
+    mix.copy('node_modules/flatpickr/dist/flatpickr.min.css','public/css/flatpickr.min.css')
 });

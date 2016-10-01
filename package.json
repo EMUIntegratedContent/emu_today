@@ -7,6 +7,13 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "laravel-elixir": "^5.0.0",
-    "bootstrap-sass": "^3.0.0"
+    "bootstrap-sass": "^3.0.0",
+    "laravel-elixir-vueify": "^1.0.6"
+  },
+  "dependencies": {
+    "admin-lte": "^2.3.3",
+    "bootstrap": "^3.3.6",
+    "flatpickr": "^1.9.1",
+    "moment": "^2.14.1"
   }
 }
